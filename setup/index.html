@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee Recruit Page</title>
+</head>
+<body>
+    <!-- Content Area -->
+    <div id="content">
+        <!-- Air Canada Logo -->
+        <img src="https://www.aircanada.com/content/dam/aircanada/generic/ac_logo.svg" alt="Air Canada Logo" id="airCanadaLogo">
+
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+            <button id="toggleBtn">&#9992;</button>
+            <button id="likeBtn">Like</button>
+            <button id="dislikeBtn">Dislike</button>
+            <button id="resetBtn">Reset</button>
+            <button id="colorFlipBtn">Flip Colors</button>
+            <button id="employeeBtn">Employee Statements</button>
+            <button id="specialBtn">Special Button</button>
+        </nav>
+
+        <!-- Introduction Section -->
+        <section id="intro">
+            <h1>Welcome to Air Canada!</h1>
+            <p>We're thrilled to have you explore opportunities with us. At Air Canada, we believe in creating an inspiring and innovative work environment where you can thrive as a developer.</p>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits">
+            <h2>Why Choose Air Canada?</h2>
+            <ul>
+                <li>Exciting and challenging projects</li>
+                <li>Collaborative and supportive team</li>
+                <li>Professional development opportunities</li>
+                <li>Flexible work schedules</li>
+                <li>Competitive compensation</li>
+            </ul>
+        </section>
+
+        <!-- Like/Dislike Counter -->
+        <section id="counterSection">
+            <h2>Like/Dislike Counter</h2>
+            <p id="counterDisplay">0</p>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
